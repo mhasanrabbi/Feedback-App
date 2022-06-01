@@ -10,6 +10,7 @@ export const FeedbackProvider = ({ children }) => {
       rating: 10,
     },
   ]);
+
   return (
     <FeedbackContext.Provider
       value={{

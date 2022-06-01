@@ -31,7 +31,7 @@ function App() {
         <div className='container'>
           <Route exact path='/'>
             <FeedbackForm handleAdd={addFeedback} />
-            <FeedbackStats feedback={feedback} />
+            <FeedbackStats />
             <FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
           </Route>
           <Route path='/about' component={AboutPage} />
